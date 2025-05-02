@@ -6,10 +6,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class IndexController {
-
-    // GET:"/"
-    @GetMapping
-    @ResponseBody
+    @GetMapping // GET:"/"
     public String index(){
         return "index";
     }
